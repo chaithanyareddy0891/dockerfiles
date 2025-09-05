@@ -18,3 +18,18 @@ LABEL adds metadata to the image, description, who sis the owner, which projects
 EXPOSE
 ------
 is used to let the users know what all the ports conatiner will open when it runs.(just for documentation it will not add the functionality)
+
+ENV
+---
+sets the environment variables, these can be used inside container
+
+COPY
+---
+Used to copy files from local to image
+
+ADD
+---
+Add alos have same capabiluties like copy
+but it has extra capabilities,
+1. it can get files from internet
+2.it can extract the files into images
