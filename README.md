@@ -14,3 +14,7 @@ CMD instruction runs at the time of conatiner creation. it keeps container runni
 LABEL
 ----
 LABEL adds metadata to the image, description, who sis the owner, which projects. 
+
+EXPOSE
+------
+is used to let the users know what all the ports conatiner will open when it runs.(just for documentation it will not add the functionality)
